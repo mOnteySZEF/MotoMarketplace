@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MotoMarket</string>
+
+    <string-array name="paliwa">
+        <item>Benzyna</item>
+        <item>Diesel</item>
+        <item>LPG</item>
+        <item>Hybryda</item>
+        <item>Elektryczny</item>
+    </string-array>
+</resources>
