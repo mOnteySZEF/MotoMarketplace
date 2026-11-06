@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/tlo"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -21,29 +22,48 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MotoMarket"
-        android:textSize="34sp"
+        android:textColor="@color/granat"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvWitaj"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:text="Witaj! Kup lub sprzedaj swoje autko"
+        android:textColor="@color/szary"
         android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnOgloszenia"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Przeglądaj ogłoszenia" />
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/pomarancz"
+        android:text="Przeglądaj ogłoszenia"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btnDodaj"
-        android:layout_width="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/granat"
+        android:text="Dodaj ogłoszenie"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvWersja"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Dodaj ogłoszenie" />
+        android:layout_marginTop="40dp"
+        android:text="wersja 1.0"
+        android:textColor="@color/szary"
+        android:textSize="14sp" />
 
 </LinearLayout>

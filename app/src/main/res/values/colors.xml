@@ -2,5 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="granat">#1E3A5F</color>
     <color name="pomarancz">#FF6F00</color>
+    <color name="tlo">#ECEFF1</color>
+    <color name="szary">#607D8B</color>
 </resources>
